@@ -1,5 +1,5 @@
 {
-  "name": "servercn-stateless-auth",
+  "name": "servercn-hybrid-auth",
   "version": "1.0.0",
   "main": "dist/server.js",
   "type": "module",

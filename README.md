@@ -34,7 +34,7 @@ Minimal Node.js + Express + TypeScript MVC starter using MongoDB and hybrid auth
 
 ## Requirements
 
-- Node.js 18+  
+- Node.js 18+
 - MongoDB (local or Atlas)
 
 ## Environment Variables
