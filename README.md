@@ -2,6 +2,23 @@
 
 Minimal Node.js + Express + TypeScript MVC starter using MongoDB and hybrid authentication (local and OAuth via Passport or similar).
 
+## Features
+
+- Express + TypeScript MVC structure
+- MongoDB integration
+- Hybrid auth: local credentials and OAuth providers (e.g., Google, GitHub, Facebook)
+- Session-based authentication compatible with production
+- Environment-driven configuration with `.env`
+- Dev and production scripts
+
+## What This Provides
+
+- A clean starting point for credential and OAuth login
+- Prewired Express app with routing and session middleware
+- MongoDB connection wiring ready for your data models
+- TypeScript configuration and scripts for iterative dev and production builds
+- Example environment keys you can enable as needed
+
 ## Quick Start
 
 1. Install dependencies:
