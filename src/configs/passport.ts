@@ -60,7 +60,7 @@ passport.use(
       callbackURL: env.FACEBOOK_REDIRECT_URI
     },
     function (accessToken, refreshToken, profile: FacebookProfile, cb) {
-      console.log({ profile });
+      // console.log({ profile });
       return cb(null, profile);
     }
   )
