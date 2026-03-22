@@ -11,6 +11,8 @@ export const envSchema = z.object({
 
   DATABASE_URL: z.url(),
 
+  ENABLE_SWAGGER: z.boolean().default(false),
+
   CORS_ORIGIN: z.string(),
   CLIENT_URL: z.url(),
 
